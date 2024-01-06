@@ -2,7 +2,7 @@
 MIT License
 Copyright (c) 2024 Nest Packages
 
- ---------- Timezonejs V1.0.0 ---------- 
+ ---------- Timelocation V1.0.0 ---------- 
 */
 
 const calendar = require('./lib/calendar.js');
