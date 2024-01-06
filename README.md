@@ -1,4 +1,4 @@
-# Timezonejs
+# Timelocation
 
 An npm package that can easily retrieve time, day, date and other data according to the timezone you specify
 
@@ -6,37 +6,37 @@ An npm package that can easily retrieve time, day, date and other data according
 
 Install with npm
 ```console
-npm install timezonejs
+npm install timelocation
 ```
 
 or connect with CDN
 ```bash
-https://www.unpkg.com/timezone@latest/timezonejs.js
+https://www.unpkg.com/timelocation@latest/timelocation.js
 ```
 
 After installing, do the import
 
 With require
 ```javascript
-const timezonejs = require('timezonejs')
+const timelocation = require('timelocation')
 ```
 
 With Tag Script Html
 ```html
-<script src="./node_modules/timezonejs/timezonejs.js"></script>
+<script src="./node_modules/timelocation/timelocation.js"></script>
 ```
 
 Connect with CDN
 ```html
-<script src="https://www.unpkg.com/timezonejs@latest/timezonejs.js"></script>
+<script src="https://www.unpkg.com/timelocation@latest/timelocation.js"></script>
 ```
 
 ## Usage
 ### Initilization
 First of all, you have to define the timezone first
 ```javascript
-const test1 = timezonejs.setArea("Asia/Jakarta", 24, "en-US")
-const test2 = timezonejs.setGmt("GMT+7", 12, "en-US")
+const test1 = timelocation.setArea("Asia/Jakarta", 24, "en-US")
+const test2 = timelocation.setGmt("GMT+7", 12, "en-US")
 
 //if you use getLocal then the timezone will follow your device
 const test2 = timezonejs.setLocal(24, "en-US")
