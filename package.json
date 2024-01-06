@@ -11,7 +11,12 @@
     "url": "git+https://github.com/nestpackages/timezonejs.git"
   },
   "keywords": [
-    "test"
+    "time",
+    "timezone",
+    "calendar",
+    "day",
+    "date",
+    "clock"
   ],
   "author": "Haidar Ahmad Faiq",
   "license": "MIT",
