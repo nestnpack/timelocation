@@ -1,5 +1,5 @@
 {
-  "name": "timezonejs",
+  "name": "",
   "version": "1.0.0",
   "description": "easily retrieve time, day, date and other data according to the time zone you specify",
   "main": "index.js",
@@ -13,6 +13,7 @@
   "keywords": [
     "time",
     "timezone",
+    "timelocation",
     "calendar",
     "day",
     "date",
@@ -21,7 +22,7 @@
   "author": "Haidar Ahmad Faiq",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nestpackages/timezonejs/issues"
+    "url": "https://github.com/nestpackages/timelocation/issues"
   },
-  "homepage": "https://github.com/nestpackages/timezonejs#readme"
+  "homepage": "https://github.com/nestpackages/timelocation#readme"
 }
