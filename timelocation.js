@@ -2,10 +2,10 @@
 MIT License
 Copyright (c) 2024 Nest Packages
 
- ---------- Timezonejs V1.0.0 ---------- 
+ ---------- Timelocation V1.0.0 ---------- 
 */
 
-const timezonejs = (function() {
+const timelocation = (function() {
   const time = {
     getSeconds: (datetime) => {
       return datetime.split(', ')[1].split(':')[2].split(' ')[0];
@@ -185,11 +185,11 @@ const timezonejs = (function() {
     return setTimezone('', format, language, 'local')
   }
   
-  const timezonejs = {
+  const timelocation = {
     setGmt,
     setArea,
     setLocal
   }
   
-  return timezonejs;
+  return timelocation;
 })();
