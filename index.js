@@ -70,10 +70,12 @@ function setArea(area, format, language) {
     return Error('area zone cannot be undefined');
   }
   
-  //vrify input
-  if(area.search('/') >= 0) {
-    //run function
-    return setTimezone(area, format, language, 'area');
+  //if input is string
+  if(typeof area === 'String') {
+    if(area.search('/') >= 0) {
+      //run function
+      return setTimezone(area, format, language, 'area');
+    }
   }
   
   //return error
@@ -86,22 +88,24 @@ function setGmt(gmt, format, language) {
     return Error('gmt zone cannot be undefined');
   }
   
-  //verify input
-  if(gmt.search('GMT') >= 0) {
-    //replacing
-    if(gmt[3] == '-') {
-      gmt = gmt.replace('-', '+');
-    } else if(gmt[3] == '+') {
-      gmt = gmt.replace('+', '-');
+  //if input is string
+  if(typeof gmt === 'String') {
+    if(gmt.search('GMT') >= 0) {
+      //replacing
+      if(gmt[3] == '-') {
+        gmt = gmt.replace('-', '+');
+      } else if(gmt[3] == '+') {
+        gmt = gmt.replace('+', '-');
+      }
+      gmt = `Etc/${gmt}`;
+      
+      //run function
+      return setTimezone(gmt, format, language, 'gmt');
     }
-    gmt = `Etc/${gmt}`;
-    
-    //run function
-    return setTimezone(gmt, format, language, 'gmt');
   }
   
   //return error
-  return Error('GMT format invalid');
+  return Error('Gmt format invalid');
 }
 
 function setLocal(format, language) {
