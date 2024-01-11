@@ -3,19 +3,17 @@
 An npm package that can easily retrieve time, day, date and other data according to the timezone you specify
 
 ## Installation
-
 Install with npm
 ```console
 npm install timelocation
 ```
 
 or connect with CDN
-```bash
+```text
 https://www.unpkg.com/timelocation@latest/timelocation.js
 ```
 
-After installing, do the import
-
+## Import
 With require
 ```javascript
 const timelocation = require('timelocation')
