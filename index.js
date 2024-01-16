@@ -2,8 +2,10 @@
 MIT License
 Copyright (c) 2024 Nest Packages
 
- ---------- Timelocation V1.0.0 ---------- 
+ ---------- Timelocation V1.0.1 ---------- 
 */
+
+'use strict';
 
 const calendar = require('./lib/calendar.js');
 const time = require('./lib/time.js');
