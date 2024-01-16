@@ -19,11 +19,6 @@ With require
 const timelocation = require('timelocation')
 ```
 
-With Tag Script Html
-```html
-<script src="./node_modules/timelocation/timelocation.js"></script>
-```
-
 Connect with CDN
 ```html
 <script src="https://www.unpkg.com/timelocation@latest/timelocation.js"></script>
