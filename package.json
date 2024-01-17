@@ -1,6 +1,6 @@
 {
   "name": "timelocation",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "easily retrieve time, day, date and other data according to the time zone you specify",
   "main": "index.js",
   "scripts": {
