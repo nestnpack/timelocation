@@ -1,9 +1,8 @@
-/*
-MIT License
-Copyright (c) 2024 Nest Packages
-
- ---------- Timelocation V1.0.2 ---------- 
-*/
+/*!
+---------- Timelocation V1.0.4 ---------- 
+ * MIT License
+ * Copyright (c) 2023 - 2024 Nest NPack
+ */
 
 'use strict';
 
