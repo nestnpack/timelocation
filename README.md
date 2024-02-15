@@ -29,10 +29,12 @@ Connect with CDN
 First of all, you have to define the timezone first
 ```javascript
 const test1 = timelocation.setArea("Asia/Jakarta", 24, "en-US")
+
+//if you use getGmt then the timezone will follow with your gmt
 const test2 = timelocation.setGmt("GMT+7", 12, "en-US")
 
 //if you use getLocal then the timezone will follow your device
-const test2 = timezonejs.setLocal(24, "en-US")
+const test3 = timelocation.setLocal(24, "en-US")
 ```
 When defining a timezone, use one of these methods
 
